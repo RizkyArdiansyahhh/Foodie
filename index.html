@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Foodie</title>
+
+    <link rel="shortcut icon" href="fig/favicon.svg" type="image/x-icon" />
+
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- My fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary py-3 fixed-top shadow-lg"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#"
+          >Foodie<span class="orange">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto grid gap-2 row-gap-0 fw-bold">
+            <a class="nav-link text-dark" aria-current="page" href="#hero"
+              >Home</a
+            >
+            <a class="nav-link text-dark" href="#promo-1">About Us</a>
+            <a class="nav-link text-dark" href="#menu">Shop</a>
+            <a class="nav-link text-dark" href="#">Blog</a>
+            <a class="nav-link text-dark" href="#">Contact Us</a>
+            <button class="button fw-semibold">
+              <span class="button-content">Reservation</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container-fluid main-hero">
+        <div class="row d-flex justify-content-center text-center main-hero-1">
+          <div class="col-md-5 col-10">
+            <h3 class="text-hero">Delicious And Affordable</h3>
+            <h1 class="fw-bold text-hero-2 display-1">
+              Nikmati menu Pilihan terbaik
+            </h1>
+            <p class="text-hero-3 fs-4 pt-2">
+              Selamat datang di Foodie. Jelajahi Kenyamanan Kuliner Kami. Rasa
+              yang Menggoda,
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="img-fluid img-hero-1"
+            src="fig/hero-bg-shape.png"
+            alt="image 1"
+          />
+          <img
+            class="img-fluid img-hero-2"
+            src="fig/hero-banner-bg.png"
+            alt="image-2"
+          />
+          <img
+            class="img-fluid img-hero-3"
+            src="fig/main_img.png"
+            alt="gambar burger"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR HERO SECTION -->
+
+    <!-- MENU SECTION -->
+    <section class="menu" id="menu">
+      <div
+        class="container justify-content-center text-center"
+        style="padding-top: 10rem"
+      >
+        <h4 class="" style="color: #f42f25">Popular Dishes</h4>
+        <h1 class="display-4 fw-bold">
+          Our Delicious <span style="color: #ff9d2e">Foods</span>
+        </h1>
+        <p class="fs-5" style="color: #787878">
+          Food is any substance consumed to provide nutritional <br />support
+          for an organism.
+        </p>
+        <div class="container d-flex justify-content-center list-name">
+          <li>
+            <button
+              type="button"
+              class="btn fs-4 fw-semibold mt-5"
+              style="
+                background-color: #ff9d2e;
+                color: #fff;
+                border-radius: 0;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+              "
+            >
+              All
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="btn fs-4 fw-semibold mt-5"
+              style="
+                border-radius: 0;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+              "
+            >
+              Pizza
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="btn fs-4 fw-semibold mt-5"
+              style="
+                border-radius: 0;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+              "
+            >
+              Burger
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="btn fs-4 fw-semibold mt-5"
+              style="
+                border-radius: 0;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+              "
+            >
+              Drinks
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="btn fs-4 fw-semibold mt-5"
+              style="
+                border-radius: 0;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+              "
+            >
+              sandwich
+            </button>
+          </li>
+        </div>
+        <div class="container" style="padding-bottom: 10rem">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+              <div class="card p-2 mt-5 card-menu">
+                <img
+                  src="fig/food-menu-1.png"
+                  class="card-img-top"
+                  alt="menu pertama"
+                />
+                <a
+                  class="btn btn-menu fs-4 fw-semibold justify-content-center"
+                  href="#"
+                  role="button"
+                  style="width: 200px"
+                  >Order Now</a
+                >
+                <div class="card-body">
+                  <h3 class="card-title fs-2 fw-bold text-start ps-3">
+                    Seafood Platter
+                  </h3>
+                  <div class="container d-flex fs-5 ps-3 fw-bold">
+                    <p class="pe-2" style="color: #f42f25">PRICE :</p>
+                    <p class="pe-2" style="color: #ff9d2e">250.000 IDR</p>
+                    <p style="color: #787878"><del>300.00 IDR</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card p-2 mt-5 card-menu">
+                <img
+                  src="fig/food-menu-2.png"
+                  class="card-img-top"
+                  alt="menu pertama"
+                />
+                <a
+                  class="btn btn-menu fs-4 fw-semibold"
+                  href="#"
+                  role="button"
+                  style="width: 200px"
+                  >Order Now</a
+                >
+                <div class="card-body">
+                  <h3 class="card-title fs-2 fw-bold text-start ps-3">
+                    Korean Kitchen
+                  </h3>
+                  <div class="container d-flex fs-5 ps-3 fw-bold">
+                    <p class="pe-2" style="color: #f42f25">PRICE :</p>
+                    <p class="pe-2" style="color: #ff9d2e">170.000 IDR</p>
+                    <p style="color: #787878"><del>220.00 IDR</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card p-2 mt-5 card-menu">
+                <img
+                  src="fig/food-menu-3.png"
+                  class="card-img-top"
+                  alt="menu pertama"
+                />
+                <a
+                  class="btn btn-menu fs-4 fw-semibold"
+                  href="#"
+                  role="button"
+                  style="width: 200px"
+                  >Order Now</a
+                >
+                <div class="card-body">
+                  <h3 class="card-title fs-2 fw-bold text-start ps-3">
+                    Spicy Chicken
+                  </h3>
+                  <div class="container d-flex fs-5 ps-3 fw-bold">
+                    <p class="pe-2" style="color: #f42f25">PRICE :</p>
+                    <p class="pe-2" style="color: #ff9d2e">90.000 IDR</p>
+                    <p style="color: #787878"><del>120.00 IDR</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card p-2 mt-5 card-menu">
+                <img
+                  src="fig/food-menu-4.png"
+                  class="card-img-top"
+                  alt="menu pertama"
+                />
+                <a
+                  class="btn btn-menu fs-4 fw-semibold"
+                  href="#"
+                  role="button"
+                  style="width: 200px"
+                  >Order Now</a
+                >
+                <div class="card-body">
+                  <h3 class="card-title fs-2 fw-bold text-start ps-3">
+                    Sashimi
+                  </h3>
+                  <div class="container d-flex fs-5 ps-3 fw-bold">
+                    <p class="pe-2" style="color: #f42f25">PRICE :</p>
+                    <p class="pe-2" style="color: #ff9d2e">170.000 IDR</p>
+                    <p style="color: #787878"><del>200.00 IDR</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card p-2 mt-5 card-menu">
+                <img
+                  src="fig/food-menu-5.png"
+                  class="card-img-top"
+                  alt="menu pertama"
+                />
+                <a
+                  class="btn btn-menu fs-4 fw-semibold"
+                  href="#"
+                  role="button"
+                  style="width: 200px"
+                  >Order Now</a
+                >
+                <div class="card-body">
+                  <h3 class="card-title fs-2 fw-bold text-start ps-3">
+                    Roast Beef
+                  </h3>
+                  <div class="container d-flex fs-5 ps-3 fw-bold">
+                    <p class="pe-2" style="color: #f42f25">PRICE :</p>
+                    <p class="pe-2" style="color: #ff9d2e">450.000 IDR</p>
+                    <p style="color: #787878"><del>500.00 IDR</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card p-2 mt-5 card-menu">
+                <img
+                  src="fig/food-menu-6.png"
+                  class="card-img-top"
+                  alt="menu pertama"
+                />
+                <a
+                  class="btn btn-menu fs-4 fw-semibold"
+                  href="#"
+                  role="button"
+                  style="width: 200px"
+                  >Order Now</a
+                >
+                <div class="card-body">
+                  <h3 class="card-title fs-2 fw-bold text-start ps-3">
+                    Spaghetti
+                  </h3>
+                  <div class="container d-flex fs-5 ps-3 fw-bold">
+                    <p class="pe-2" style="color: #f42f25">PRICE :</p>
+                    <p class="pe-2" style="color: #ff9d2e">70.000 IDR</p>
+                    <p style="color: #787878"><del>110.00 IDR</del></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="img-shape" src="fig/shape-grey.png" alt="" />
+    </section>
+    <!-- AKHIR MENU SECTION -->
+
+    <!-- PROMO-1 SECTION -->
+    <section class="promo-1" id="promo-1">
+      <img class="img-shape-promo-1" src="fig/shape-grey.png" alt="" />
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col">
+                <h1 class="fw-bold display-5" style="color: #fff">
+                  Burger Extravaganza:Festival
+                  <span style="color: #ff9d2e">Rasa yang Menggoda!</span>
+                </h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p class="fw-semibold pb-5" style="color: #fff">
+                  Temukan kelezatan sejati dalam setiap gigitan burger kami yang
+                  fenomenal. Kami mempersembahkan promo burger istimewa yang
+                  menggoda selera, dirancang khusus untuk menggoyang lidah Anda.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="container sale-1">
+              <img class="img-fluid img-sale" src="fig/cta-banner.png" alt="" />
+              <img class="sale-shape" src="fig/sale-shape.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="img-shape-2"
+        src="fig/shape-grey.png"
+        alt=""
+        style="position: absolute; bottom: 0; width: 100%"
+      />
+    </section>
+    <!-- AKHIR PROMO-1 SECTION -->
+
+    <!-- PROMO-2 SECTION -->
+    <section class="promo-2">
+      <div class="container" style="padding-block: 10rem">
+        <div class="row">
+          <div class="col-md-6 px-0">
+            <div class="card card-1">
+              <img class="img-promo2" src="fig/banner-1.jpg " alt="" />
+              <div class="card-body p-0">
+                <div class="container text-card-1">
+                  <h1 class="card-text fw-bold" style="color: #fff">
+                    50% Off <br />Now! Discount For Delicious Tasty spaghetti!
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 px-0">
+                <div class="card card-1">
+                  <img class="img-promo2" src="fig/banner-2.jpg " alt="" />
+                  <div class="card-body p-0">
+                    <div class="container text-card-1">
+                      <h1 class="card-text fw-bold" style="color: #fff">
+                        Delicious Pizza
+                      </h1>
+                      <p class="fs-3 fw-semibold" style="color: #fff">
+                        50% off Now
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 px-0">
+                <div class="card card-1">
+                  <img class="img-promo2" src="fig/banner-3.jpg " alt="" />
+                  <div class="card-body p-0">
+                    <div class="container text-card-1">
+                      <h1 class="card-text fw-bold" style="color: #fff">
+                        American Burgers
+                      </h1>
+                      <p class="fs-3 fw-semibold" style="color: #fff">
+                        50% off Now
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col px-0">
+                <div class="card card-1">
+                  <img class="img-promo2" src="fig/banner-4.jpg " alt="" />
+                  <div class="card-body p-0">
+                    <div class="container text-card-1">
+                      <h1 class="card-text fw-bold" style="color: #fff">
+                        Tasty Buzzed Pizza
+                      </h1>
+                      <p class="fs-3 fw-semibold" style="color: #fff">
+                        50% off Now
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="img-shape-promo" src="fig/shape-grey.png" alt="" />
+    </section>
+    <!-- AKHIR PROMO-2 SECTION -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container pt-5">
+        <div class="row justify-content-center text-center">
+          <div class="col">
+            <a class="navbar-brand fw-bold fs-3" href="#"
+              >Foodie<span class="orange" style="color: #ff9d2e">.</span></a
+            >
+            <p class="fs-5">
+              Selamat datang di Foodie. Jelajahi Kenyamanan Kuliner Kami. Rasa
+              yang Menggoda.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="img-fluid img-footer-1"
+            src="fig/delivery-boy.svg"
+            alt=""
+            style="height: 240px"
+          />
+          <img
+            class="img-fluid img-footer-2"
+            src="fig/footer-illustration.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+    <!-- AKHIR FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
